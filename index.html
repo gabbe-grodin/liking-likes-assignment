@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+
+    <!-- header -->
+
+    <header>
+        <div class="header-container">
+            <h1>Network</h1>
+        </div>
+        
+    </header>
+    
+    <!-- container -->
+
+    <main class="container">
+        
+        <!-- wrapper of aside and main section right column -->
+
+        <div class="wrapper-of-aside-and-rt-col">
+            
+            <!-- aside left -->
+
+            <div class="left-aside">
+                <div class="left-aside gap">
+                <!-- keep empty -->
+                </div>
+                <aside class="left-aside box">
+                    <img src="./assets/user-circle.png" alt="placeholder icon for James Doe" class="row">
+                    <h4 class="row"><a href="#">Add an avatar</a></h4>
+                    <h3 class="row">James Doe</h3>
+                </aside>
+            </div>
+
+            <!-- main section right column -->
+
+            <section class="main-right-col">
+                <div class="gap">
+                    <h2>Your Feed</h2>
+                </div>
+                
+                <div class="box">
+                    <div class="row">
+                        <h3>Some User</h3>
+                        <p><span id="likes-count">3</span> like(s)</p>
+                        <button onclick="addToLikes()">Like</button>
+                    </div>
+                    <p>This is some filler text, it can say anything we like.</p>
+                </div>
+
+                <div class="box">
+                    <div class="row">
+                        <h3>Some User</h3>
+                        <p><span id="likes-count">3</span> like(s)</p>
+                        <button onclick="addToLikes()">Like</button>
+                    </div>
+                    <p>This is some filler text, it can say anything we like.</p>
+                </div>
+
+                <div class="box">
+                    <div class="row">
+                        <h3>Some User</h3>
+                        <p><span id="likes-count">3</span> like(s)</p>
+                        <button onclick="addToLikes()">Like</button>
+                    </div>
+                    <p>This is some filler text, it can say anything we like.</p>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
